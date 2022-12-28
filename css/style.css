@@ -1,0 +1,48 @@
+body {
+    color: #000000;
+    text-align: center;  
+    background-color: #FFBF01;
+    font-family: digital-7, 'Helvetica', 'Arial', sans-serif;
+    background-image: url(../images/chat-bubble1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div{
+    min-width: 20%;
+    max-width: 100%;
+    margin: 150px auto;
+}
+
+#heading{
+    margin-top: 125px;
+    text-decoration: underline;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+#timer{
+    font-size: 4em;
+}
+
+button {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #FFBF01;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+button:hover {background-color: #a47b00}
+
+button:active {
+  background-color: #a47b00;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
